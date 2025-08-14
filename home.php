@@ -75,6 +75,7 @@ $data = $data['results'];
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="<?= $websiteUrl ?>/src/assets/css/search.css">
     <script src="<?= $websiteUrl ?>/src/assets/js/search.js"></script>
+    <script src="<?= $websiteUrl ?>/src/assets/js/modern-interactions.js"></script>
 
     <noscript>
         <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css>

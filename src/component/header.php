@@ -252,28 +252,28 @@
         <div class="header-setting">
             <div class="hs-toggles">
                 
-            <a href="<?= $websiteUrl ?>/anime/most-popular" class="hst-item" data-toggle="tooltip"
+            <a href="<?= $websiteUrl ?>/anime/most-popular" class="hst-item hover-lift" data-toggle="tooltip"
                     data-original-title="Popular Anime List">
                     <div class="hst-icon"><i class="fa-solid fa-fire"></i></div>
                     <div class="name"><span>Popular</span></div>
                 </a>
 
-                <div class="hst-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Select language of anime name to display.">
+                <div class="hst-item hover-lift" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Select language of anime name to display.">
                     <div class="select-anime-name toggle-lang"><span class="en">EN</span><span class="jp">JP</span></div>
                     <div class="name"><span class="lang-display">English</span></div>
                 </div>
 
-                <a href="<?= $websiteUrl ?>/anime/movie" class="hst-item" data-toggle="tooltip"
+                <a href="<?= $websiteUrl ?>/anime/movie" class="hst-item hover-lift" data-toggle="tooltip"
                     data-original-title="Anime Movies">
                     <div class="hst-icon"><i class="fa-solid fa-clapperboard"></i></div>
                     <div class="name"><span>Movie</span></div>
                 </a>
-                <a href="<?= $websiteUrl ?>/anime/completed" class="hst-item" data-toggle="tooltip"
+                <a href="<?= $websiteUrl ?>/anime/completed" class="hst-item hover-lift" data-toggle="tooltip"
                     data-original-title="Anime Movies">
                     <div class="hst-icon"><i class="fa-solid fa-hourglass-end"></i></div>
                     <div class="name"><span>Completed</span></div>
                 </a>
-                <a href="<?= $websiteUrl ?>/random" class="hst-item" data-toggle="tooltip"
+                <a href="<?= $websiteUrl ?>/random" class="hst-item hover-lift wave-animation" data-toggle="tooltip"
                     data-original-title="Select Random Anime">
                     <div class="hst-icon"><i class="fas fa-random"></i></div>
                     <div class="name"><span>Random</span></div>

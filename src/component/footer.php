@@ -21,11 +21,11 @@
             </div>
             <div class="footer-az">
                 <div class="block mb-3">
-                    <span class="ftaz">A-Z LIST</span>
+                    <span class="ftaz text-gradient">A-Z LIST</span>
                     <span class="size-s">Searching anime order by alphabet name A to Z.</span>
                 </div>
-                <ul class="ulclear az-list">
-                    <li><a href="/az-list">All</a></li>
+                <ul class="ulclear az-list stagger-animation">
+                    <li><a href="/az-list" class="hover-lift">All</a></li>
                     <li><a href="/az-list/0-9">0-9</a></li>                 
                     <li><a href="/az-list/a">A</a></li>
                     <li><a href="/az-list/b">B</a></li>

@@ -261,14 +261,37 @@ button,
 }
 #action-button .btn {
     display: block;
-    border-radius: 12px;
-    padding: 15px 20px;
-    font-weight: 600;
-    background: #ffbade !important;
-    color: #111 !important;
+    border-radius: 16px;
+    padding: 18px 32px;
+    font-weight: 700;
+    background: var(--gradient-primary) !important;
+    color: white !important;
     border: none !important;
     box-shadow: none !important;
-    max-width: 260px;
+    max-width: 300px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+#action-button .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.2) 50%, transparent 70%);
+    transform: translateX(-100%);
+    transition: transform 0.8s;
+}
+
+#action-button .btn:hover::before {
+    transform: translateX(100%);
+}
+
+#action-button .btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 40px rgba(255, 107, 157, 0.5) !important;
 }
 #xsearch.home-search {
     display: block !important;

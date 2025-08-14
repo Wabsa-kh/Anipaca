@@ -1,17 +1,17 @@
-<section class="block_area block_area_category lazy-component" data-component="category">
+<section class="block_area block_area_category lazy-component glass-effect animate-fadeInUp" data-component="category">
     <div class="block_area-header">
         <div class="float-left bah-heading mr-4">
-            <h2 class="cat-heading">Top Upcoming</h2>
+            <h2 class="cat-heading text-glow">Top Upcoming</h2>
         </div>
         <div class="float-right viewmore">
-            <a class="btn" href="/anime/top-upcoming">View more<i class="fas fa-angle-right ml-2"></i></a>
+            <a class="btn hover-lift" href="/anime/top-upcoming">View more<i class="fas fa-angle-right ml-2"></i></a>
         </div>
         <div class="clearfix"></div>
     </div>
 
     <div class="tab-content">
-        <div class="block_area-content block_area-list film_list film_list-grid film_list-wfeature ">
-            <div class="film_list-wrap">
+        <div class="block_area-content block_area-list film_list film_list-grid film_list-wfeature">
+            <div class="film_list-wrap stagger-animation">
                 <?php
                 // Fetch JSON data
                 $json = file_get_contents("$zpi/top-upcoming");

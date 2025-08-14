@@ -1,15 +1,15 @@
-<div class="container">
-    <div class="anif-blocks">
+<div class="container animate-fadeInUp">
+    <div class="anif-blocks stagger-animation">
         <div class="row">
             <?php
             if (!empty($data['topAiring'])) {
                 $data['topAiring'] = array_slice($data['topAiring'], 0, 5);
             ?>
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="anif-block anif-block-01">
-                    <div class="anif-block-header">Top Airing</div>
+                <div class="anif-block anif-block-01 glass-effect hover-lift">
+                    <div class="anif-block-header text-gradient">Top Airing</div>
                     <div class="anif-block-ul">
-                        <ul class="ulclear">
+                        <ul class="ulclear space-y-2">
                             <?php foreach ($data['topAiring'] as $index => $anime): ?>
                             <li>
                                 <div class="film-poster item-qtip" data-id="<?php echo $anime['id']; ?>">

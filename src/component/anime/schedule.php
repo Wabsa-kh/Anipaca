@@ -1,10 +1,10 @@
-<div id="schedule-block"><section class="block_area block_area_sidebar block_area-schedule schedule-full">
+<div id="schedule-block" class="animate-fadeInUp"><section class="block_area block_area_sidebar block_area-schedule schedule-full glass-effect">
     <div class="block_area-header">
         <div class="float-left bah-heading mr-4">
-            <h2 class="cat-heading">Estimated Schedule</h2>
+            <h2 class="cat-heading text-glow">Estimated Schedule</h2>
         </div>
         <div class="float-left bah-time">
-            <span class="current-time">
+            <span class="current-time text-gradient">
                 <span id="timezone"></span> 
                 <span id="current-date"></span> 
                 <span id="clock"></span>

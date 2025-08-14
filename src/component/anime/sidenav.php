@@ -70,24 +70,24 @@ if ($data['success']) {
             </div>
         </div>
     </section>
-      <section class="block_area block_area_sidebar block_area-realtime">
+      <section class="block_area block_area_sidebar block_area-realtime glass-effect">
     
     <div class="block_area-header">
         <div class="float-left bah-heading mr-2">
-            <h2 class="cat-heading">Top 10</h2>
+            <h2 class="cat-heading text-glow">Top 10</h2>
         </div>
         <div class="float-right bah-tab-min">
             <ul class="nav nav-pills nav-fill nav-tabs anw-tabs">
-                <li class="nav-item"><a data-toggle="tab" href="#top-viewed-day" class="nav-link active">Today</a>
+                <li class="nav-item"><a data-toggle="tab" href="#top-viewed-day" class="nav-link active hover-lift">Today</a>
                 </li>
-                <li class="nav-item"><a data-toggle="tab" href="#top-viewed-week" class="nav-link">Week</a></li>
-                <li class="nav-item"><a data-toggle="tab" href="#top-viewed-month" class="nav-link">Month</a></li>
+                <li class="nav-item"><a data-toggle="tab" href="#top-viewed-week" class="nav-link hover-lift">Week</a></li>
+                <li class="nav-item"><a data-toggle="tab" href="#top-viewed-month" class="nav-link hover-lift">Month</a></li>
             </ul>
         </div>
         <div class="clearfix"></div>
     </div>
     <div class="block_area-content">
-        <div class="cbox cbox-list cbox-realtime">
+        <div class="cbox cbox-list cbox-realtime stagger-animation">
             <div class="cbox-content">
                 <div class="tab-content">
                     <div id="top-viewed-day" class="anif-block-ul anif-block-chart tab-pane active">

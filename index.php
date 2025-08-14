@@ -184,11 +184,11 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
                 <div class="container">
                     
                 <div class="share-buttons share-buttons-home">
-            <div class="container">
-                <div class="share-buttons-block">
+            <div class="container animate-fadeInUp">
+                <div class="share-buttons-block glass-effect">
                     <div class="share-icon"></div>
                     <div class="sbb-title mr-3">
-                        <span>Share <?=$websiteTitle?></span>
+                        <span class="text-gradient">Share <?=$websiteTitle?></span>
                         <p class="mb-0">to your friends</p>
                     </div>
                    <div class="sharethis-inline-share-buttons"></div>

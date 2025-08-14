@@ -1,18 +1,18 @@
-<div class="deslide-wrap">
+<div class="deslide-wrap animate-fadeInScale">
     <div class="container">
-        <div id="slider" class="slider-container swiper-container">
+        <div id="slider" class="slider-container swiper-container glass-effect">
             <div class="swiper-wrapper">
                 <?php foreach ($data['spotlights'] as $index => $anime): ?>
                     <div class="swiper-slide">
                         <div class="deslide-item">
                             <div class="deslide-cover">
                                 <div class="deslide-cover-img">
-                                    <img class="film-poster-img lazyload" src="<?= $anime['poster'] ?>" alt="<?= htmlspecialchars($anime['title']) ?>" fetchpriority="high" loading="eager">
+                                    <img class="film-poster-img lazyload hover-scale" src="<?= $anime['poster'] ?>" alt="<?= htmlspecialchars($anime['title']) ?>" fetchpriority="high" loading="eager">
                                 </div>
                             </div>
                             <div class="deslide-item-content">
-                                <div class="desi-sub-text">#<?= $index + 1 ?> Spotlight</div>
-                                <div class="desi-head-title dynamic-name" data-title="<?= htmlspecialchars($anime['title']) ?>" data-jname="<?= htmlspecialchars($anime['jname']) ?>"><?= htmlspecialchars($anime['title']) ?></div>
+                                <div class="desi-sub-text text-gradient animate-delay-1">#<?= $index + 1 ?> Spotlight</div>
+                                <div class="desi-head-title dynamic-name text-glow animate-delay-2" data-title="<?= htmlspecialchars($anime['title']) ?>" data-jname="<?= htmlspecialchars($anime['jname']) ?>"><?= htmlspecialchars($anime['title']) ?></div>
                                 <div class="sc-detail">
                                     <div class="scd-item"><i class="fas fa-play-circle mr-1"></i>&nbsp;<?= htmlspecialchars($anime['tvInfo']['showType']) ?></div>
                                     <div class="scd-item"><i class="fas fa-clock mr-1"></i>&nbsp;<?= htmlspecialchars($anime['tvInfo']['duration']) ?></div>
